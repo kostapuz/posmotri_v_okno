@@ -9,7 +9,7 @@ html {
 }
 
 .page {
-  display: flex;
+  display: grid;
   place-content: center;
   inline-size: 1200px;
   block-size: 100%;
@@ -47,7 +47,8 @@ ol {
   grid-template-columns: 711px 1fr;
   max-height: 534px;
   height: 100%;
-  margin: 133px 30px;
+  margin: 133px 30px 0;
+  background: #1B1919;
   gap: 30px;
   align-items: end;
 }
